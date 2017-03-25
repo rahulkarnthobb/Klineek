@@ -1,15 +1,30 @@
 {
-  "name": "KlineekWeb",
-  "homepage": "https://github.com/rahulkarnthobb/Klineek",
-  "authors": [
-    "balamurugan b <balamuruganb2020@gmail.com>"
-  ],
-  "description": "",
-  "main": "app.js",
-  "license": "",
-  "private": true,
+  "name": "klineek-web",
+  "version": "0.0.0",
   "dependencies": {
-    "jquery": "^3.2.1",
-    "bootstrap-css": "^3.3.7"
+    "angular": "^1.4.0",
+    "bootstrap": "^3.2.0",
+    "angular-animate": "^1.4.0",
+    "angular-aria": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-messages": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "klineekWebApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
 }
