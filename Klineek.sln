@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlineekWeb", "KlineekWeb\KlineekWeb.csproj", "{90F67626-2A2B-47C2-8E45-C474E706C124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlineekApi", "KlineekApi\KlineekApi.csproj", "{ECF191F9-2E2C-488A-866D-4C56AB30F027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F67626-2A2B-47C2-8E45-C474E706C124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F67626-2A2B-47C2-8E45-C474E706C124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F67626-2A2B-47C2-8E45-C474E706C124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F67626-2A2B-47C2-8E45-C474E706C124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF191F9-2E2C-488A-866D-4C56AB30F027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF191F9-2E2C-488A-866D-4C56AB30F027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF191F9-2E2C-488A-866D-4C56AB30F027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF191F9-2E2C-488A-866D-4C56AB30F027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
