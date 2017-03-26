@@ -8,6 +8,6 @@
  * Controller of the klineekWebApp
  */
 angular.module('klineekWebApp')
-  .controller('MainCtrl', function () {
-    console.log('main ctrl loaded');
+  .controller('LoginCtrl', function () {
+    console.log('LoginCtrl loaded');
   });

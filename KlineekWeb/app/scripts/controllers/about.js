@@ -10,6 +10,7 @@
    */
   angular.module('klineekWebApp')
     .controller('AboutCtrl', function () {
+      console.log('AboutCtrl loaded');
 
     });
 

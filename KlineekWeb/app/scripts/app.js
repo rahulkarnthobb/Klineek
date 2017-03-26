@@ -1,37 +1,28 @@
-'use strict';
-
-/**
- * @ngdoc overview
- * @name klineekWebApp
- * @description
- * # klineekWebApp
- *
- * Main module of the application.
- */
-angular
-  .module('klineekWebApp', [
-    'ngAnimate',
-    'ngAria',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/login.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+(function () {
+  angular
+    .module('klineekWebApp', [
+      'ngAnimate',
+      'ngAria',
+      'ngCookies',
+      'ngMessages',
+      'ngResource',
+      'ngRoute',
+      'ngSanitize',
+      'ngTouch'
+    ])
+    .config(function ($routeProvider,$locationProvider) {
+       $locationProvider.hashPrefix('');
+      $routeProvider
+        .when('/', {
+          templateUrl: 'views/login.html',
+          controller: 'LoginCtrl'
+        })
+        .when('/about', {
+          templateUrl: 'views/about.html',
+          controller: 'AboutCtrl'
+        })
+        .otherwise({
+          redirectTo: '/'
+        });
+    });
+}());
